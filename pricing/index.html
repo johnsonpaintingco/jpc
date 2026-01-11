@@ -1,1 +1,444 @@
-pricing
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interior Painting Pricing | Johnson Painting Company</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Flat rate pricing from Johnson Painting Company">
+    <meta name="author" content="Johnson Painting Company">
+    <meta property="og:image" content="https://jpc.today/pic/jpc-fall-special.jpg">
+    <meta property="og:title" content="Get flat rate pricing from Johnson Painting Company">
+    <meta property="og:description" content="Flat rate pricing from Johnson Painting Company">
+    <meta property="og:url" content="https://jpc.today/flat-price">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/png" href="https://jpc.today/pic/jpc-fall-special.jpg">
+
+
+  <!-- Bootstrap 4 -->
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .brand-red {
+      color: #c62828;
+    }
+
+    .btn-brand {
+      background-color: #c62828;
+      color: #fff;
+      font-weight: 600;
+      padding: 12px 24px;
+    }
+
+    .btn-brand:hover {
+      background-color: #a91f1f;
+      color: #fff;
+    }
+
+    .pricing-card {
+      border: 1px solid #eee;
+      border-radius: 6px;
+      transition: all 0.2s ease;
+      overflow: hidden;
+      position: relative;
+      
+      
+    }
+
+    .pricing-card:hover {
+      box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+      transform: translateY(-4px);
+    }
+
+    .pricing-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .price {
+      font-size: 36px;
+      font-weight: 700;
+    }
+
+    .section-padding {
+      padding: 60px 0;
+    }
+
+    .bg-light-gray {
+      background: #f8f8f8;
+    }
+
+    .logo-center img {
+      max-height: 120px;
+    }
+    .popular-badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: #c62828;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 6px 12px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  }
+    .fa-info-circle {
+      color: #c62828;}
+
+ 
+  </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="py-4 border-bottom">
+  <div class="container text-center logo-center">
+    <img
+      src="https://johnsonpaintingcompany.com/wp-content/uploads/2025/07/johnson-painting-newest-vermelho.png"
+      alt="Johnson Painting Company"
+      class="img-fluid"
+    >
+  </div>
+  <div class="container text-center text-danger">
+    Since 1986
+  </div>
+
+</header>
+
+<!-- HERO -->
+<section class="section-padding text-center">
+  <div class="container">
+    <h1 class="mb-3">Flat-Rate Interior Painting Pricing</h1>
+    <p class="lead text-muted">
+      Simple pricing. Professional results. No surprises.
+    </p>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="section-padding bg-light-gray">
+  <div class="container">
+
+    <div class="row">
+
+      <!-- STANDARD ROOM -->
+      <div class="col-md-4 mb-4">
+        <div class="pricing-card h-100">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Standard Room">
+          <div class="p-4 text-center">
+            <h4>Standard Room</h4>
+            ideal for a fresh look
+            <div class="price brand-red">$399</div>
+            <ul class="list-unstyled text-muted mb-4">
+              <li>Walls only</li>
+              <li>Stage 1 prep <i class="fas fa-info-circle" data-toggle="tooltip" title="Basic dusting, sanding of rough surfaces, and filling in cracking caulk"></i></li>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+             
+            </ul>
+            <button
+  type="button"
+  class="btn btn-brand btn-block book-btn"
+  data-toggle="modal"
+  data-target="#myModal"
+  data-offer="Standard room package">
+  Book now
+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- WHOLE HOUSE -->
+<div class="col-md-4 mb-4">
+  <div class="pricing-card h-100">
+    
+    <!-- MOST POPULAR BADGE -->
+    <div class="popular-badge">Most Popular</div>
+
+    <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea" alt="Whole House">
+
+    <div class="p-4 text-center">
+      <h4>Upgraded Room Package</h4>
+      Perfect for most rooms.
+      <div class="price brand-red">$999</div>
+      <ul class="list-unstyled text-muted mb-4">
+        includes:
+        <li>Walls + ceiling + trim</li>
+        <li>Stage 3 trim prep <a data-toggle="tooltip" title="Full scuff sanding and caulk repair"> <i class="fas fa-info-circle"></i></a></li>
+        <li>Stage 3 drywall prep <a data-toggle="tooltip" title="Hole filling, full sanding."> <i class="fas fa-info-circle"></i></a></li>
+        <li>3 digital color concepts  <a data-toggle="tooltip" title="Digital image rendering of the room with specified color"> <i class="fas fa-info-circle"></i></a></li>
+        <br>
+             
+              <br>
+              <br>
+            
+        
+      </ul>
+      <button
+  type="button"
+  class="btn btn-brand btn-block book-btn"
+  data-toggle="modal"
+  data-target="#myModal"
+  data-offer="Upgraded Room Package">
+  Book now
+</button>
+    </div>
+  </div>
+</div>
+
+
+      <!-- PREMIUM -->
+      <div class="col-md-4 mb-4">
+        <div class="pricing-card h-100">
+          <img src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c" alt="Premium Interior">
+          <div class="p-4 text-center">
+            <h4>Premium room package</h4>
+            For a stunning transformation
+            <div class="price brand-red">$1,499</div>
+            <ul class="list-unstyled text-muted mb-4">
+              <li>Walls + ceilings + trim + doors</li>
+              <li>Accent walls or multiple colors</li>
+              <li>Stage 5 trim prep <a data-toggle="tooltip" title="Full sanding, removal and replacement of bad caulk, nail setting and hole filling, run removal."> <i class="fas fa-info-circle"></i></a></li>
+              <li>Stage 5 drywall prep <a data-toggle="tooltip" title="Hole filling, tape repair, imperfection floating, primer and point up. Full vac sanding"> <i class="fas fa-info-circle"></i></a></li>
+              <li>Up to 5 digital color concepts <a data-toggle="tooltip" title="Digital image rendering of the room with specified color"> <i class="fas fa-info-circle"></i></a></li>
+              <li>Hardware upgrade <a data-toggle="tooltip" title=" New door hinges, door knobs, door stops. Color and finish homeowners choice"> <i class="fas fa-info-circle"></i></a></li>
+              <li>Professional detail cleaning of entire room</li>
+              <li>Priority scheduling</li>
+            </ul>
+              <button
+  type="button"
+  class="btn btn-brand btn-block book-btn"
+  data-toggle="modal"
+  data-target="#myModal"
+  data-offer="Premium room package">
+  Book now
+</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ADD-ON SERVICES -->
+    <h2>Customize your project</h2>
+    <div class="row mt-5">
+
+      <!-- TRIM ONLY -->
+      <div class="col-md-4 mb-4">
+        <div class="pricing-card h-100">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Trim Painting">
+          <div class="p-4 text-center">
+            <h4>Enhanced prep/repair</h4>
+            For badly damaged rooms. (save 20% when combined with the upgraded paint package)
+            <div class="price brand-red">$699</div>
+            <ul class="list-unstyled text-muted mb-4">
+ 
+              
+              <li>Patching and sanding throughout</li>
+              <li>Cleaning and stain blocking</li>
+              <li>Bad caulk removal and re-application</li>
+            </ul>
+               <button
+  type="button"
+  class="btn btn-brand btn-block book-btn"
+  data-toggle="modal"
+  data-target="#myModal"
+  data-offer="Enhanced prep/repair">
+  Book now
+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- WINDOWS & DOORS -->
+      <div class="col-md-4 mb-4">
+        <div class="pricing-card h-100">
+          <img src="https://images.unsplash.com/photo-1604014237800-1c9102c219da" alt="Doors and Windows">
+          <div class="p-4 text-center">
+            <h4>Trim only</h4>
+            Ideal to brighten up the space. (save 20% by adding 5 or more)
+            <div class="price brand-red">$95.00 /per</div>
+            <ul class="list-unstyled text-muted mb-4">
+               
+              
+              <li>Interior doors and frames</li>
+              <li>Windows and frames</li>
+              <li>Basebaord /per 2 walls</li>
+              <li>Stage 2 prep</li>
+              <li>Durable enamel finish</li>
+            </ul>
+               <button
+  type="button"
+  class="btn btn-brand btn-block book-btn"
+  data-toggle="modal"
+  data-target="#myModal"
+  data-offer="Trim package">
+  Book now
+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- CEILINGS ONLY -->
+      <div class="col-md-4 mb-4">
+        <div class="pricing-card h-100">
+          <img src="https://images.unsplash.com/photo-1600121848594-d8644e57abab" alt="Ceiling Painting">
+          <div class="p-4 text-center">
+            <h4>Ceilings Only</h4>
+            <div class="price brand-red">$299</div>
+            <ul class="list-unstyled text-muted mb-4">
+              includes:
+              <li>Flat white finish</li>
+              <li>Stain blocking available</li>
+              <li>Stage 3 prep</li>
+            </ul>
+              <button
+  type="button"
+  class="btn btn-brand btn-block book-btn"
+  data-toggle="modal"
+  data-target="#myModal"
+  data-offer="ceiling package">
+  Book now
+</button>
+           
+          </div>
+        </div>
+      </div>
+      
+    </div>
+<center>Need a custom estimate?
+      <br>
+      <a href="#" class="btn btn-success btn-block" style="width: 300px;">Scheduele now</a></center>
+  </div>
+
+</section>
+  
+   <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Modal Heading</h4>
+          <button type="button" class="close" data-dismiss="modal">×</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          
+          <script>
+    var submitted = !1
+</script>
+<iframe id=hidden_iframe name=hidden_iframe onload='submitted&&(window.location="https://jpc.today/success")' style=display:none></iframe>
+
+  
+  
+  <form class="form-signin" action=https://docs.google.com/forms/d/1BpoqssPO0eI_wujNewypv63Dot3BidqRMUzC_J8wPmM/formResponse method=post onsubmit="submitted=!0" target=hidden_iframe onsubmit="return validateEmail(event);">
+          
+          
+        
+           
+
+    
+    
+  <img class="mb-4" src="https://johnsonpaintingcompany.com/wp-content/uploads/2025/07/johnson-painting-newest-vermelho.png" alt="" width="72" height="72">
+    
+    
+    
+    <h1 class="h3 mb-3 font-weight-normal">Coupon code "jpc15" applied!</h1>
+    <p class="text-muted">You just saved an additional 15%</p>
+    <label for="prdct" class="sr-only">product id</label>
+    <input type="text" class="form-control" id="prdct" placeholder="product" name="entry.1488798046" hidden>
+    <br>
+    <label for="prdc" class="sr-only">Coupon code</label>
+    <input type="text" class="form-control" id="prdc" placeholder="Code: jpc15" readonly>
+    <br>
+    <label for="usrnm" class="sr-only">Email</label>
+    <input type="email" class="form-control" id="email" placeholder="Your email" name="entry.115662027" required>
+    <br>
+
+    <label for="usrnm" class="sr-only">Name</label>
+    <input type="text" class="form-control" id="Name" placeholder="Full name" name="entry.275749380" required>
+    <br>
+    <label for="usrnm" class="sr-only">Address</label>
+    <input type="text" class="form-control" id="adress" placeholder="Address of project" name="entry.1151769728" required>
+    <br>
+    <label for="usrnm" class="sr-only">Contact</label>
+    <input type="text" class="form-control" id="Phone number" placeholder="Enter phone number" name="entry.1879958492" required>
+    <br>	
+    <label for="prjct" class="sr-only">Describe project</label>
+    <textarea type="text" class="form-control" id="Project" placeholder="Project description" name="entry.571267858" rows="4" cols="50" required></textarea>
+
+    <br>
+    <button class="btn btn-lg btn-outline-danger btn-block" type="submit">Let's go!</button>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+ 
+
+<!-- FOOTER -->
+<footer class="py-4 border-top text-center text-muted">
+  © 2025 Johnson Painting Company. All rights reserved.
+</footer>
+  <script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+    
+    <script>
+    var submitted = false;
+
+    function validateEmail(event) {
+      const emailInput = document.getElementById('usrnm').value.trim();
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(emailInput)) {
+        alert("Please enter a valid email address.");
+        return false;
+      }
+      submitted = true;
+      return true;
+    }
+  </script>
+    <script>
+  $('.book-btn').on('click', function () {
+    const offer = $(this).data('offer');
+
+    // Populate hidden input
+    $('#prdct').val(offer);
+
+    // Optional: update modal title so user sees what they booked
+    $('.modal-title').text('Book: ' + offer);
+  });
+</script>
+
+
+</body>
+</html>
+
